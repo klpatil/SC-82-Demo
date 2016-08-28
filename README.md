@@ -6,9 +6,7 @@ For few projects, I noticed that me and few of my colleagues/friends had issue v
 
 This tool will help you for that!
 
-Basically, this tool is inspired from:
-1. SQL Shell - Sitecore tool to query SQL Data
-2. And https://github.com/SitecoreSupport/TestMongoDBConnection
+Basically, this tool is inspired from. SQL Shell - Sitecore tool to query SQL Data, https://github.com/SitecoreSupport/TestMongoDBConnection
 
 BIG Thanks to them!
 
