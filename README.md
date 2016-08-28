@@ -2,7 +2,7 @@ Mongo Shell
 =============
 Mongo Shell - Helps you to validate your mongo connection, and do basic mongo checks. Like Test Connection, Get Collection Names, Get Collection, Get Stats, Find All Users
 
-For few projects, I noticed that me and few of my colleagues/friends had issue validating whether mongo connection is right or not, and if yes whether data is going through or not. Mongo Client tools (e.g. Mongo Management Studio) are there. But what If you can't install Mongo Client Tool on server and Firewall is blocked to open mongo connection out of network?
+For few projects, I noticed that me and few of my colleagues/friends had issue validating whether mongo connection is right or not, and if yes weather data is going through or not. Mongo Client tools (e.g. Mongo Management Studio) are there. But what If you can't install Mongo Client Tool on server and Firewall is blocked to open mongo connection out of network?
 
 This tool will help you for that!
 
