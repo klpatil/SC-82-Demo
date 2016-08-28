@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Mongo Shell by klpatil</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Mongo Shell</h1>
+        <p class="header">Mongo Shell - Helps you to validate your mongo connection, and do basic mongo checks!</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/klpatil/SC-82-Demo/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/klpatil/SC-82-Demo/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/klpatil/SC-82-Demo">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/klpatil">klpatil</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="mongo-shell" class="anchor" href="#mongo-shell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mongo Shell</h1>
+
+<p>Mongo Shell - Helps you to validate your mongo connection, and do basic mongo checks. Like Test Connection, Get Collection Names, Get Collection, Get Stats, Find All Users</p>
+
+<p>For few projects, I noticed that me and few of my colleagues/friends had issue validating whether mongo connection is right or not, and if yes whether data is going through or not. Mongo Client tools (e.g. Mongo Management Studio) are there. But what If you can't install Mongo Client Tool on server and Firewall is blocked to open mongo connection out of network?</p>
+
+<p>This tool will help you for that!</p>
+
+<p>Basically, this tool is inspired from. SQL Shell - Sitecore tool to query SQL Data, <a href="https://github.com/SitecoreSupport/TestMongoDBConnection">https://github.com/SitecoreSupport/TestMongoDBConnection</a></p>
+
+<p>BIG Thanks to them.</p>
+
+<p><img src="https://sitecorebasics.files.wordpress.com/2016/08/mongo-shell-beta-demo.gif" alt="Mongo Shell"></p>
+
+<h2>
+<a id="main-features" class="anchor" href="#main-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Main Features</h2>
+
+<ol>
+<li>To validate your mongo connection directly from your Sitecore application</li>
+<li>You can Get collection names of particular DB</li>
+<li>You can view collection records</li>
+<li>You can view Mongo stats</li>
+<li>You can find all users</li>
+<li>Security has been applied -- User needs to be logged in to access it.</li>
+<li>Responsive UI</li>
+</ol>
+
+<h2>
+<a id="how-to-download-and-install" class="anchor" href="#how-to-download-and-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to Download and Install?</h2>
+
+<h3>
+<a id="option-1" class="anchor" href="#option-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Option 1</h3>
+
+<ol>
+<li>If you would like to do it manually you can download files from here [Sitecore/admin directory]</li>
+<li>Copy-Paste MongoShell.<em>.</em> files under \Sitecore\Admin folder.</li>
+<li>Access your page using  http:///sitecore/admin/Mongoshell.aspx</li>
+<li>That's it! Enjoy! :-)</li>
+</ol>
+
+<hr>
+
+<h3>
+<a id="option-2" class="anchor" href="#option-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Option 2</h3>
+
+<ol>
+<li>Download Sitecore Package from Data\Packages\V1 folder, Which will copy the files at required place.</li>
+<li>Install using Sitecore Installation Wizard. Once done, Just access your page using  http:///sitecore/admin/Mongoshell.aspx</li>
+<li>That's it! Enjoy! :-)</li>
+</ol>
+
+<h2>
+<a id="caveats" class="anchor" href="#caveats" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Caveats</h2>
+
+<ol>
+<li>This tool is in BETA</li>
+<li>Haven't been able to check it with Mongo, which has authentication. If you do so, and face any issues or not face any issues. Please do share your findings</li>
+<li>Few Mongo Driver methods are deprecated. But they works so far!</li>
+<li>Validated with Sitecore 8.2 only</li>
+<li>Haven't validated with PRODUCTION Data. All checkes happened with plain Sitecore instance. So, please double check before you deploy this tool on PRODUCTION</li>
+<li>Uses C#6 Features. So, if you see any error related to interpolated strings -- Please refer : <a href="http://stackoverflow.com/questions/31548699/how-to-use-c-sharp-6-with-web-site-project-type">http://stackoverflow.com/questions/31548699/how-to-use-c-sharp-6-with-web-site-project-type</a>
+</li>
+</ol>
+
+<blockquote>
+<p>Found any bug? Got suggestion/feedback/comment, Share it here!</p>
+</blockquote>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
